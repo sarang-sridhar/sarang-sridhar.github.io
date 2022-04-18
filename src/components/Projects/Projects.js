@@ -23,7 +23,7 @@ function Projects() {
               title="Inter-BITS Sports Meet Website"
               description="A web app for playerregistration in 48 sporting events; includes a captain allotment
               portal and a team formation portal for 400+ teams across 5 campuses of BITS Pilani."
-              link="https://inter-bits.org/"
+              link="https://bitssutechteam.github.io/InterBITS-Frontend"
             />
           </Col>
 
@@ -59,8 +59,6 @@ function Projects() {
               link="https://cab-admin.su-bitspilani.org/"
             />
           </Col>
-
-        
         </Row>
       </Container>
     </Container>

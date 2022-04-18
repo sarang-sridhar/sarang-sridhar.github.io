@@ -1,7 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "sarang-sridhar.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sarang-sridhar.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -12,7 +13,6 @@
     "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2",
     "react-github-calendar": "^3.2.2",
-    "homepage":"https://sarang-sridhar.github.io/Portfolio",
     "react-icons": "^4.3.1",
     "react-parallax-tilt": "^1.6.5",
     "react-pdf": "^5.7.1",
@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
