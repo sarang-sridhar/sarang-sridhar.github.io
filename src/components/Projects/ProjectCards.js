@@ -7,9 +7,14 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title>{props.title} {props.flag==1?<><br></br><a href={props.toBelink}>{props.toBe}</a></>:<></>}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+          {!props.flag==2 || !props.flag || props.flag==1?props.description:<>
+          {props.before}
+          <a href={props.toBelink}>{props.toBe}</a>
+          {props.after}
+          </>}
+         
         </Card.Text>
         {props.link!='false'?<Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;

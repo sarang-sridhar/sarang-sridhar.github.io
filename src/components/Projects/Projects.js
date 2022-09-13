@@ -17,11 +17,35 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              flag={2}
+              title="Lung Cancer Detection and Segmentation"
+              before="Working under "
+              toBe="Prof. Vinay Chamola"
+              after=" at BITS Pilani towards modifying HR-NET, 
+              a CNN model, to work towards lung cancer detection and segmentation from CT Scans."
+              toBelink="https://www.bits-pilani.ac.in/pilani/vinaychamola/profile"
+              link="false"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Frontend Web Development Intern"
+              flag={1}
+              toBe='Carscan.ai'
+              toBelink='https://www.carscan.ai/'
+              description="Built a Configuration Dashboard in React and integrated REST APIs through which the product team can modify features of the web app allowing for quick customization of the web app as per client request."
+              link="false"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
               title="Inter-BITS Sports Meet Website"
-              description="A web app for playerregistration in 48 sporting events; includes a captain allotment
+              description="A web app for player registration in 48 sporting events; includes a captain allotment
               portal and a team formation portal for 400+ teams across 5 campuses of BITS Pilani."
               link="https://bitssutechteam.github.io/InterBITS-Frontend"
             />
@@ -44,7 +68,7 @@ function Projects() {
               description="A cross platform student productivity app for crowd sourcing academic documents
               with quality control via user provided feedback and ratings. The app includes 3000+
               verified documents to serve the academic needs of 5000+ students in BITS Pilani."
-              link="false"
+              link="https://studydeck.bits-sutechteam.org/"
             />
           </Col>
 
