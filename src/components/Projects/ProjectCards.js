@@ -7,11 +7,11 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Body>
-        <Card.Title>{props.title} {props.flag==1?<><br></br><a href={props.toBelink}>{props.toBe}</a></>:<></>}</Card.Title>
+        <Card.Title>{props.title} {props.flag==1?<><br></br><a target='_blank' href={props.toBelink}>{props.toBe}</a></>:<></>}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {!props.flag==2 || !props.flag || props.flag==1?props.description:<>
           {props.before}
-          <a href={props.toBelink}>{props.toBe}</a>
+          <a  target='_blank' href={props.toBelink}>{props.toBe}</a>
           {props.after}
           </>}
          
