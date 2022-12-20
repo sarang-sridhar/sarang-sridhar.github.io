@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Computer Science Student and a Passionate Programer
+              I am a Computer Science Student and a Passionate Programer.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -27,13 +27,13 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest are in &nbsp;
+              My field of Interest are in&nbsp;
               <i>
                 <b className="purple">
                   Web Development, Machine Learning For Health{" "}
                 </b>{" "}
                 and
-                <b className="purple">Algorithms</b>
+                <b className="purple"> Algorithms.</b>
               </i>
               <br />
               <br />
