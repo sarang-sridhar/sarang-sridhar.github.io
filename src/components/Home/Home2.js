@@ -23,14 +23,14 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Python, C++, and Javascript. </b>
               </i>
               <br />
               <br />
-              My field of Interest are in&nbsp;
+              My interests are&nbsp;
               <i>
                 <b className="purple">
-                  Web Development, Machine Learning For Health{" "}
+                  Machine Learning For Health, Web Development{" "}
                 </b>{" "}
                 and
                 <b className="purple"> Algorithms.</b>
