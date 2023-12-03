@@ -24,10 +24,9 @@ function Projects() {
               title="Lung Cancer Detection and Segmentation"
               before="Working under "
               toBe="Prof. Vinay Chamola"
-              after=" at BITS Pilani towards modifying HR-NET, 
-              a CNN model, to work towards lung cancer detection and segmentation from CT Scans."
+              after=" at BITS Pilani on lung cancer detection and segmentation from CT Scans in the LIDC-IDRI dataset."
               toBelink="https://www.bits-pilani.ac.in/pilani/vinaychamola/profile"
-              link="false"
+              link="https://drive.google.com/file/d/18dyjDVLGidk51d9XY_mRiyHI9gSRa3rh/view?usp=sharing"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -39,6 +38,16 @@ function Projects() {
               toBelink='https://www.carscan.ai/'
               description="Built a Configuration Dashboard in React and integrated REST APIs through which the product team can modify features of the web app allowing for quick customization of the web app as per client request."
               link="false"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title=" ERPlag Custom Compiler"
+              description="Created a compiler for a custom language(ERPlag) in C, with specially designed data structures & algorithms for
+              optimized memory consumption & reduced compile time; Built the lexer, parser, semantic analyzer, and code
+              generator modules and reduced generated assembly code size by 25% through various optimization techniques."
+              link="https://github.com/sarang-sridhar/Compiler-Construction"
             />
           </Col>
           <Col md={4} className="project-card">

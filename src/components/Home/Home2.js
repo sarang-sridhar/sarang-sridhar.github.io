@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/me.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,9 +19,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Computer Science Student and a Passionate Programer.
+              I am a Computer Science Student, a Passionate Programer and a AI Researcher.
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in
               <i>
                 <b className="purple"> Python, C++, and Javascript. </b>
               </i>
@@ -30,7 +30,7 @@ function Home2() {
               My interests are&nbsp;
               <i>
                 <b className="purple">
-                  Machine Learning For Health, Web Development{" "}
+                  Machine Learning For Health, Computer Vision, Web Development{" "}
                 </b>{" "}
                 and
                 <b className="purple"> Algorithms.</b>
@@ -48,9 +48,9 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
+            {/* <p>
               Feel free to <span className="purple">connect </span>with me
-            </p>
+            </p> */}
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
