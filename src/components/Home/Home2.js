@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/me.png";
+import myImg from "../../Assets/website_pic.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,22 +19,11 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a Computer Science Student, a Passionate Programer and a AI Researcher.
+              I'm a First Year Masters Student in Computer Science at the University of Pennsylvania
+      
               <br />
-              <br />I am fluent in
-              <i>
-                <b className="purple"> Python, C++, and Javascript. </b>
-              </i>
-              <br />
-              <br />
-              My interests are&nbsp;
-              <i>
-                <b className="purple">
-                  Machine Learning For Health, Computer Vision, Web Development{" "}
-                </b>{" "}
-                and
-                <b className="purple"> Algorithms.</b>
-              </i>
+              I'm interested in LLM Agents, Machine learning for health and Computer Vision.&nbsp;
+              
               <br />
               <br />
             </p>
@@ -72,16 +61,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/sarang_sridhar/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+               
             </ul>
           </Col>
         </Row>

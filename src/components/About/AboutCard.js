@@ -10,20 +10,11 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sarang Sridhar </span>
             from <span className="purple"> Chennai, India.</span>
-            <br />I am a Senior pursuing Computer Science and Engineering in BITS, Pilani.
+            <br />I am a Masters Student in computer science at the university of Pennsylvania. 
             <br />
             <br />
-            Apart from coding, some other activities that I love to do are 
           </p>
-          <ul>
-            
-            <li className="about-activity">
-              <ImPointRight /> Playing Tennis
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading Sci-Fi
-            </li>
-          </ul>
+          
 
           
         </blockquote>
