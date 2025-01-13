@@ -39,6 +39,19 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
+          <Route
+            path="/Agentic_Agenda_Setting"
+            element={
+              <div style={{ height: "100vh" }}>
+                <iframe
+                  src="/AGENTAGENDASETTING.pdf"
+                  title="Towards a Real-time Clinical Agenda Setting System for Enhancing Clinical Interactions in Primary Care Visits
+"
+                  style={{ width: "100%", height: "100%", border: "none" }}
+                />
+              </div>
+            }
+          />
         </Routes>
       
       </div>
