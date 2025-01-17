@@ -51,6 +51,19 @@ function App() {
               </div>
             }
           />
+          <Route
+            path="/AAAIworkshop2025"
+            element={
+              <div style={{ height: "100vh" }}>
+                <iframe
+                  src="/AAAIworkshop2025.pdf"
+                  title="Towards a Real-time Clinical Agenda Setting System for Enhancing Clinical Interactions in Primary Care Visits
+"
+                  style={{ width: "100%", height: "100%", border: "none" }}
+                />
+              </div>
+            }
+          />
         </Routes>
       
       </div>
