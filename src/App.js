@@ -65,6 +65,20 @@ function App() {
             }
           />
         </Routes>
+        <Route
+            path="/transcript"
+            element={
+              <div style={{ height: "100vh" }}>
+                <iframe
+                  src="/transcript.pdf"
+                  title="transcript
+"
+                  style={{ width: "100%", height: "100%", border: "none" }}
+                />
+              </div>
+            }
+          />
+        </Routes>
       
       </div>
     </Router>
