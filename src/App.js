@@ -64,7 +64,6 @@ function App() {
               </div>
             }
           />
-        </Routes>
         <Route
             path="/transcript"
             element={
