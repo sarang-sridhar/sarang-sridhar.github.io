@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'r
 function AppContent({ load }) {
   const location = useLocation();
   // Define routes where you don't want the Navbar to appear
-  const hideNavbarRoutes = ["/resume.pdf"];
+  const hideNavbarRoutes = ["/resume"];
   const showNavbar = !hideNavbarRoutes.includes(location.pathname);
 
   return (
