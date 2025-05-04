@@ -4,14 +4,24 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
-import Resume from "./components/Resume/ResumeNew";
+
 
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
+
+
+const ResumeRedirect = () => {
+  useEffect(() => {
+    window.location.href = "/resume.pdf"; // Redirects to the actual PDF
+  }, []);
+
+  return null; // Render nothing
+};
 
 function AppContent({ load }) {
   const location = useLocation();
@@ -65,18 +75,10 @@ function AppContent({ load }) {
             </div>
           }
         />
-        <Route
-          path="/resume"
-          element={
-            <div id="no-scroll" style={{ height: "100vh" }}>
-              <iframe
-                src="/Sarang_Resume.pdf"
-                title="Resume PDF"
-                style={{ width: "100%", height: "100%", border: "none" }}
-              />
-            </div>
-          }
-        />
+        
+
+        <Route path="/resume" element={<ResumeRedirect />} />
+
       </Routes>
     </div>
   );

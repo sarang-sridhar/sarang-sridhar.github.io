@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "MSCS @ UofPenn ",
-          "Passionate about LLM Agents",
+          "Building AI Agents",
           "Deep Learning Researcher",
          
         ],
